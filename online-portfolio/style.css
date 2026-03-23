@@ -1,0 +1,40 @@
+/*
+MY COLOR PALETTE
+Charcoal Blue #373F51
+Blue Bell #008DD5
+Almond Silk #DFBBB1
+Bubblegum Pink #F56476
+Magenta Bloom #E43F6F
+*/
+
+#headshot {
+    width:100%;
+    
+}
+
+button {background-color:#008DD5;
+color:#E43F6F;
+ width:174px;
+height: 48px;
+    font-size:144%;
+}
+
+button:hover{
+    background-color:#DFBBB1;}
+
+.container-fluid {
+    background-color: #373F51;
+    color: #E43F6F;
+}
+body {
+    background-color: #373F51;
+    color: #E43F6F;
+}
+h1 {
+      font-family: "Archivo Black", sans-serif;
+    letter-spacing: -.7px;
+    font-weight:bold;
+    text-transform: uppercase;
+    color: #E43F6F;
+    margin: 10px 0px 0px  20px;
+}
