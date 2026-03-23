@@ -6,11 +6,14 @@ Almond Silk #DFBBB1
 Bubblegum Pink #F56476
 Magenta Bloom #E43F6F
 */
-
+@media screen{
 #headshot {
     width:100%;
-    
+    padding: None;
 }
+    .fullwidth {
+        padding:0px
+    }
 
 button {background-color:#008DD5;
 color:#E43F6F;
@@ -32,9 +35,27 @@ body {
 }
 h1 {
       font-family: "Archivo Black", sans-serif;
-    letter-spacing: -.7px;
+    letter-spacing: 1.05px;
     font-weight:bold;
     text-transform: uppercase;
     color: #E43F6F;
-    margin: 10px 0px 0px  20px;
+   
+    text-align-last: left;
+}
+#navigation{
+    background-color:#DFBBB1;
+    text-align: center;
+    color: #E43F6F;
+}
+    }
+
+
+@media (min-width:576px) {
+    h1{
+        font-size:50px
+    }
+}
+
+.navigation{
+     color: #E43F6F
 }
