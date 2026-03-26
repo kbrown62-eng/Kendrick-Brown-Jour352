@@ -6,56 +6,76 @@ Almond Silk #DFBBB1
 Bubblegum Pink #F56476
 Magenta Bloom #E43F6F
 */
-@media screen{
-#headshot {
-    width:100%;
-    padding: None;
-}
+@media screen {
+    #headshot {
+        width: 100%;
+        padding: None;
+    }
     .fullwidth {
-        padding:0px
+        padding: 0px;
+    }
+    button {
+        background-color: #008dd5;
+        color: #e43f6f;
+        width: 174px;
+        height: 48px;
+        font-size: 144%;
     }
 
-button {background-color:#008DD5;
-color:#E43F6F;
- width:174px;
-height: 48px;
-    font-size:144%;
-}
-
-button:hover{
-    background-color:#DFBBB1;}
-
-.container-fluid {
-    background-color: #373F51;
-    color: #E43F6F;
-}
-body {
-    background-color: #373F51;
-    color: #E43F6F;
-}
-h1 {
-      font-family: "Archivo Black", sans-serif;
-    letter-spacing: 1.05px;
-    font-weight:bold;
-    text-transform: uppercase;
-    color: #E43F6F;
-   
-    text-align-last: left;
-}
-#navigation{
-    background-color:#DFBBB1;
-    text-align: center;
-    color: #E43F6F;
-}
+    button:hover {
+        background-color: #dfbbb1;
     }
 
-
-@media (min-width:576px) {
-    h1{
-        font-size:50px
+    .container-fluid {
+        background-color: #373f51;
+        color: #e43f6f;
+    }
+    body {
+        background-color: #373f51;
+        color: #e43f6f;
+    }
+    h1 {
+        font-family: "Archivo Black", sans-serif;
+        letter-spacing: 1.6px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #e43f6f;
+        text-align-last: left;
+    }
+    h4 {
+        color: #dfbbb1;
+    }
+    #navigation {
+        background-color: #dfbbb1;
+        text-align: center;
+        color: #e43f6f;
     }
 }
 
-.navigation{
-     color: #E43F6F
+.col-4 a {
+    color: #e43f6f;
+    text-decoration: none;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 50px;
+    }
+    button {
+        width: 171px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 100px;
+    }
+}
+#button a {
+    color: #e43f6f;
+    text-decoration: none;
+}
+
+.fullwidth1 {
+    margin: 88px;
 }
