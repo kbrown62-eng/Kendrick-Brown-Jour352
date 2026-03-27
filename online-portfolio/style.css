@@ -41,6 +41,9 @@ Magenta Bloom #E43F6F
     h4 {
         color: #dfbbb1;
     }
+    #Distance{
+        padding: 0px;
+    }
     #navigation {
         background-color: #dfbbb1;
         text-align: center;
