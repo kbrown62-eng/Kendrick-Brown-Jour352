@@ -30,10 +30,6 @@ Magenta Bloom #E43F6F
         background-color: #373f51;
         color: #e43f6f;
     }
-    body {
-        background-color: #373f51;
-        color: #e43f6f;
-    }
     h1 {
         font-family: "Archivo Black", sans-serif;
         letter-spacing: 1.6px;
@@ -50,32 +46,38 @@ Magenta Bloom #E43F6F
         text-align: center;
         color: #e43f6f;
     }
-}
 
 .col-4 a {
     color: #e43f6f;
     text-decoration: none;
 }
+h3 {
+
+  margin-top: 46px;
+
+}
+    .col-8{
+        margin-bottom: 27px;
+    }
 
 @media (min-width: 576px) {
     h1 {
-        font-size: 50px;
+        font-size: 47px;
     }
     button {
-        width: 171px;
+        width: 141px;
     }
 }
 
 @media (min-width: 768px) {
     h1 {
-        font-size: 100px;
+        font-size: 62px;
+    }
+    button {
+        width: 160px;
     }
 }
 #button a {
     color: #e43f6f;
     text-decoration: none;
-}
-
-.fullwidth1 {
-    margin: 88px;
 }
