@@ -13,6 +13,14 @@ Dark Teal - #0F4C5C
   img {
     width: 100%;
   }
+  .caption {
+    color: #FB8B24;
+     font-size: 6px;
+  }
+  .credit {
+    color: #9A031E;
+    font-size: 6px;
+  }
 }
 @media (min-width: 576px) {
   h1 {
