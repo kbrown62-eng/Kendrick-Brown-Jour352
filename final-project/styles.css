@@ -9,7 +9,7 @@ Blue - #00caff
 @media screen {
   body {
     background-color: #5f0f40;
-       text-align:center;
+    text-align: center;
   }
   h1 {
     font-family: "Sekuya", system-ui;
@@ -39,20 +39,20 @@ Blue - #00caff
     color: #9a031e;
     font-size: 12px;
   }
-  #topper{
-    background-image:url(farewell-to-music-television.jpg);
-      background-size: cover;
-     background-position: center;
+  #topper {
+    background-image: url(farewell-to-music-television.jpg);
+    background-size: cover;
+    background-position: center;
   }
   .narrative {
     font-family: "Archivo Black", sans-serif;
     color: #00caff;
   }
   .pullquote {
-   font-family:  "Sekuya", system-ui;
-    background-color:#00caff ;
+    font-family: "Sekuya", system-ui;
+    background-color: #00caff;
     font-size: larger;
-    border-top: dashed
+    border-top: dashed;
   }
 }
 @media (min-width: 576px) {
