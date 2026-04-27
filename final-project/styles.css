@@ -5,18 +5,18 @@ Deep Crimson - #9A031E
 Princeton Orange - #FB8B24
 Autumn Leaf - #E36414
 Blue - #00caff
+White- #ffffff
 */
 @media screen {
   body {
     background-color: #5f0f40;
-    text-align: center;
   }
   h1 {
     font-family: "Sekuya", system-ui;
     color: #00caff;
     margin-top: 23px;
   }
-  h2 {
+  h3 {
     font-family: "Sekuya", system-ui;
     color: #00caff;
     padding-top: 20px;
@@ -39,14 +39,10 @@ Blue - #00caff
     color: #9a031e;
     font-size: 12px;
   }
-  #topper {
-    background-image: url(farewell-to-music-television.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+
   .narrative {
     font-family: "Archivo Black", sans-serif;
-    color: #00caff;
+    color: #ffffff;
   }
   .pullquote {
     font-family: "Sekuya", system-ui;
@@ -59,7 +55,7 @@ Blue - #00caff
   h1 {
     font-size: 15px;
   }
-  h2 {
+  h3 {
     font-size: 10px;
   }
   img {
@@ -71,7 +67,7 @@ Blue - #00caff
   h1 {
     font-size: 30px;
   }
-  h2 {
+  h3 {
     font-size: 25px;
   }
   img {
@@ -82,18 +78,18 @@ Blue - #00caff
   h1 {
     font-size: 45px;
   }
-  h2 {
+  h3 {
     font-size: 40px;
   }
   img {
-    width: 90%;
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
   h1 {
     font-size: 60px;
   }
-  h2 {
+  h3 {
     font-size: 55px;
   }
   img {
