@@ -75,7 +75,7 @@ Blue - #00caff
     font-size: 25px;
   }
   img {
-    width: 150%;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -97,6 +97,6 @@ Blue - #00caff
     font-size: 55px;
   }
   img {
-    width: 120%;
+    width: 100%;
   }
 }
